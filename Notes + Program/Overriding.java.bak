@@ -1,0 +1,25 @@
+/*Method Overriding  (Run time)
+  >Parent and chiled classes both contains the same function with a different defination.
+   
+ 
+class Overriding
+{
+	public static void main(String[] args) 
+	{
+		Deer d=new Deer();
+		d.eat();
+
+	}
+}
+class Animal{
+   void eat(){
+	   System.out.println("eat Anythings");
+	   }
+}
+
+
+ class Deer extends Animal{
+       void eat(){
+	        System.out.println("eat Grass") ;
+			 }
+}
